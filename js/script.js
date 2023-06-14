@@ -1,8 +1,8 @@
-let fruta = 'fruta'
+let fruta = ''
 
-fruta = prompt('nome da fruta')
+fruta = prompt('Digite o nome da fruta')
 
-switch (fruta) {
+switch (fruta.toLowerCase()) {
     case 'maça':
         alert("Não vendemos essa fruta aqui")
        break
